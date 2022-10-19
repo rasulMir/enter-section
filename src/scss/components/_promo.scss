@@ -1,0 +1,143 @@
+.promo {
+	padding: 5rem 0 0 0;
+	color: $white;
+	// background: url('../img/promo-bg.png') center cover/no-repeat;
+	background-image: url('../img/promo-bg.png');
+	background-position: 46% 10%;
+	background-repeat: no-repeat;
+	background-size: 173%;
+
+	// .promo__inner-wrap
+	&__inner-wrap {
+	}
+
+	// .promo__title
+	&__title {
+		text-align: center;
+		font-weight: 700;
+		font-size: 2.5rem;
+		letter-spacing: 0.1em;
+		margin: 0 0 32rem 0;
+	}
+
+	// .promo__txt-list
+	&__txt-list {
+		margin: 0 0 4rem 0;
+		letter-spacing: 0.1em;
+	}
+
+	// .promo__txt-item
+	&__txt-item {
+		padding: 0 .5em 0 0;
+		font-size: 1.6rem;
+		line-height: 2.5em;
+
+		& > p {
+			margin: 0;
+		}
+
+		&:not(:last-child) {
+			margin: 0 0 2.5rem 0;
+		}
+	}
+
+	// .promo__subtitle
+	&__subtitle {
+		text-align: center;
+		font-weight: 700;
+		font-size: 2.5rem;
+		line-height: 1.5em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	
+	.promo {
+		background-size: 140%;
+		
+		background-position: center;
+		// .promo__title
+		&__title {
+			margin: 0 0 12rem 0;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.promo {
+		padding: 8rem 0 0 0;
+		background-position: 45% 73%;
+		background-size: 120%;
+	
+		// .promo__inner-wrap
+		&__inner-wrap {
+		}
+	
+		// .promo__title
+		&__title {
+			text-align: left;
+			margin: 0 0 5.5rem 0;
+			font-size: 5rem;
+		}
+	
+		// .promo__txt-list
+		&__txt-list {
+			margin: 0 0 18rem 0;
+		}
+	
+		// .promo__txt-item
+		&__txt-item {
+			padding: 0 1.5em 0 0;
+			font-size: 2.2rem;
+			line-height: 1.8em;
+	
+			&:not(:last-child) {
+				margin: 0 0 5rem 0;
+			}
+		}
+	
+		// .promo__subtitle
+		&__subtitle {
+			padding: 0 10rem;
+			font-size: 3.2rem;
+			line-height: 1.2em;
+		}
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	
+	.promo {
+		background-position: 105px -150px;
+    background-size: 120%;
+
+		& > .container {
+			max-width: 1330px;
+		}
+
+		// .promo__title
+		&__title {
+			font-size: 8rem;
+		}
+	
+		// .promo__txt-list
+		&__txt-list {
+			margin: 0 0 30rem 0;
+		}
+	
+		// .promo__txt-item
+		&__txt-item {
+			padding: 0 15em 0 0;
+	
+			&:not(:last-child) {
+				margin: 0 0 5rem 0;
+			}
+		}
+	
+		// .promo__subtitle
+		&__subtitle {
+			padding: 0 37rem;
+		}
+	}
+}

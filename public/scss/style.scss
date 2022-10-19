@@ -1,0 +1,43 @@
+
+@import './normalize';
+@import './icomoon';
+@import './vars';
+@import './fonts';
+
+:root {
+	font-size: 62.5%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	max-width: 1440px;
+	padding: 0 1.5rem;
+	margin: 0 auto;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	font-family: $monts;
+	background-color: $bgColor;
+
+	&_active {
+		overflow: hidden;
+		height: 100vh;
+	}
+}
+
+.txt-gold {
+	color: $gold;
+}
+
+@import './components/header';
+@import './components/promo';
+@import './components/why-us';
+@import './components/statistics';
+@import './components/services';
+@import './components/clients';
+@import './components/footer';

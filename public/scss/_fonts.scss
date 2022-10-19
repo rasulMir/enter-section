@@ -1,0 +1,67 @@
+@import './vars';
+
+@font-face {
+  font-family: $inter;
+  src: url('../fonts/Inter-Bold.eot');
+  src: url('../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Inter-Bold.ttf') format('truetype'),
+       url('../fonts/Inter-Bold.woff') format('woff'),
+       url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: $monts;
+  src: url('../fonts/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+       url('../fonts/Montserrat-Bold.woff') format('woff'),
+       url('../fonts/Montserrat-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: $monts;
+  src: url('../fonts/Montserrat-Light.eot');
+  src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Light.ttf') format('truetype'),
+       url('../fonts/Montserrat-Light.woff') format('woff'),
+       url('../fonts/Montserrat-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: $monts;
+  src: url('../fonts/Montserrat-SemiBold.eot');
+  src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+       url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+       url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: $monts;
+  src: url('../fonts/Montserrat-Medium.eot');
+  src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+       url('../fonts/Montserrat-Medium.woff') format('woff'),
+       url('../fonts/Montserrat-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $monts;
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+       url('../fonts/Montserrat-Regular.woff') format('woff'),
+       url('../fonts/Montserrat-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
